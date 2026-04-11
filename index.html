@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Young Author Spotlight</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0b0b0b;
+      color: #e5e5e5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a0000, #8b0000);
+      text-align: center;
+      padding: 50px 20px;
+      color: white;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+
+    .author-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: 5px solid #ff1a1a;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #ff1a1a;
+      margin-top: 0;
+    }
+
+    .book-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .book-cover {
+      width: 220px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    }
+
+    .book-details {
+      flex: 1;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #ff1a1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #cc0000;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Meet Miguel Figueroa Manners</h1>
+  <p>A rising young voice in modern fiction</p>
+  <img src="author.jpg" alt="Author Photo" class="author-img">
+</header>
+
+<div class="container">
+  
+  <section>
+    <h2>About the Author</h2>
+    <p>
+      Miguel Figueroa Manners is a high school student in Nixa Missouri. He became passionate about writing at the age of 12 and pursued this passion ever since. His dream is not only to be an author, but also a director to show his stories around the world. Miguel really likes the arts and loves to be part of the creative world.
+    </p>
+  </section>
+
+  <section class="book-section">
+    <img src="book.jpg" alt="Book Cover" class="book-cover">
+    
+    <div class="book-details">
+      <h2>The Hidden Horizon</h2>
+      <p>
+        In this captivating debut novel, a young hero sets out on a journey beyond the known world, 
+        discovering secrets, friendships, and the true meaning of courage.
+      </p>
+
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Miguel Figueroa Manners | All Rights Reserved
+</footer>
+
+</body>
+</html>
