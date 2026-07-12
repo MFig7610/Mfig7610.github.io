@@ -50,10 +50,15 @@
 
     .book-section {
       display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
+      flex-direction: row; 
+      gap: 20px;
       align-items: center;
       margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+    .book-section {
+      flex-direction: column; 
     }
 
     .book-cover {
@@ -121,7 +126,7 @@
     </p>
   </section>
 
-  <iframe class="promo-video" width="560" height="315" src="https://www.youtube.com/embed/URGZUHPjKEc?si=OiJ-44gJ0UuiOzXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe class="promo-video" src="https://www.youtube.com/embed/URGZUHPjKEc?si=OiJ-44gJ0UuiOzXR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   <section class="book-section">
     <img src="Free-From-the-Living-Dead-End-Cover-Art.png" alt="Book Cover" class="book-cover">
